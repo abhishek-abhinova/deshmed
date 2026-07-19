@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Deshmed Healthcare for product enquiries, availability, and partnership opportunities.">
+  <title>Contact Us | Deshmed Healthcare</title>
+  <link rel="canonical" href="https://deshmedhealthcare.netlify.app/contact">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Deshmed Healthcare">
+  <meta property="og:title" content="Contact Us | Deshmed Healthcare">
+  <meta property="og:description" content="Contact Deshmed Healthcare for product enquiries, availability, and partnership opportunities.">
+  <meta property="og:url" content="https://deshmedhealthcare.netlify.app/contact">
+  <meta property="og:image" content="https://deshmedhealthcare.netlify.app/images/logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact Us | Deshmed Healthcare">
+  <meta name="twitter:description" content="Contact Deshmed Healthcare for product enquiries, availability, and partnership opportunities.">
+  <meta name="twitter:image" content="https://deshmedhealthcare.netlify.app/images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Cinzel:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="contact">
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html"><img class="brand-logo" src="images/logo.svg" alt=""><span><strong>Deshmed</strong><small>healthcare</small></span></a>
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle><i data-lucide="menu"></i></button>
+    <nav class="site-nav" data-nav>
+      <a href="index.html" data-nav-link="home">Home</a>
+      <a href="products.html" data-nav-link="products">Products</a>
+      <a href="about.html" data-nav-link="about">About Us</a>
+      <a href="quality.html" data-nav-link="quality">Quality</a>
+      <a href="contact.html" data-nav-link="contact">Contact Us</a>
+    </nav>
+    <a class="btn btn-primary header-cta" href="contact.html"><i data-lucide="send"></i> Send Enquiry</a>
+  </header>
+
+  <main>
+    <section class="page-hero contact-hero">
+      <div class="reveal">
+        <span class="eyebrow">Contact Deshmed</span>
+        <h1>Get in touch with our team.</h1>
+        <p>Tell us which products you need, the required quantity, and your business details. The form is ready for Netlify Forms on deployment.</p>
+      </div>
+    </section>
+
+    <section class="section contact-layout">
+      <div class="contact-panel reveal">
+        <h2>Direct details</h2>
+        <a href="tel:+919910943297"><i data-lucide="phone"></i> 9910943297</a>
+        <a href="https://wa.me/919910943297" target="_blank" rel="noopener"><i data-lucide="message-circle"></i> WhatsApp: 9910943297</a>
+        <a href="mailto:deshmedhealthcare@gmail.com"><i data-lucide="mail"></i> deshmedhealthcare@gmail.com</a>
+        <p><i data-lucide="map-pin"></i> Shop No. 11, Diva Manpada Road, Diva (E), Mumbai-400613</p>
+        <div class="contact-note">
+          <strong>For buyers</strong>
+          <span>Please include product names, quantity, location, and urgency for a faster response.</span>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" name="product-enquiry" method="POST" action="thank-you.html" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="product-enquiry">
+        <p class="hidden-field">
+          <label>Do not fill this out <input name="bot-field"></label>
+        </p>
+        <label>
+          Name
+          <input type="text" name="name" autocomplete="name" required>
+        </label>
+        <label>
+          Business / Pharmacy Name
+          <input type="text" name="business" autocomplete="organization" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" autocomplete="email" required>
+        </label>
+        <label>
+          Phone
+          <input type="tel" name="phone" autocomplete="tel" required>
+        </label>
+        <label class="full-span">
+          Product Requirement
+          <select name="product" required>
+            <option value="">Select product</option>
+            <option>Reboflux-20</option>
+            <option>Keyvit-D3</option>
+            <option>Dmoad-1500</option>
+            <option>Dmoad-UC</option>
+            <option>Mecobust</option>
+            <option>Biocitcal-1000</option>
+            <option>GBP NT -100</option>
+            <option>Multiple products</option>
+          </select>
+        </label>
+        <label class="full-span">
+          Message
+          <textarea name="message" rows="5" placeholder="Mention quantity, city, and delivery timeline." required></textarea>
+        </label>
+        <button class="btn btn-primary full-span" type="submit"><i data-lucide="send"></i> Submit Enquiry</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div><a class="brand footer-brand footer-brand-full" href="index.html"><img class="footer-logo-full" src="images/logo.png" onerror="this.onerror=null;this.src='images/logo.svg';this.classList.add('is-fallback')" alt="Deshmed Healthcare logo"></a></div>
+      <div><h3>Pages</h3><a href="products.html">Products</a><a href="about.html">About Us</a><a href="quality.html">Quality</a><a href="contact.html">Contact Us</a></div>
+      <div><h3>Popular Products</h3><a href="products.html">Reboflux-20</a><a href="products.html">Keyvit-D3</a><a href="products.html">Dmoad-1500</a><a href="products.html">Dmoad-UC</a><a href="products.html">Mecobust</a><a href="products.html">Biocitcal-1000</a><a href="products.html">GBP NT -100</a></div><div><h3>Contact</h3><a href="tel:+919910943297">9910943297</a><a href="mailto:deshmedhealthcare@gmail.com">deshmedhealthcare@gmail.com</a><p>Shop No. 11, Diva Manpada Road, Diva (E), Mumbai-400613</p></div>
+      <div><h3>Compliance</h3><a href="privacy-policy.html">Privacy Policy</a><p>Products are supplied according to applicable regulations and valid trade requirements.</p></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Deshmed Healthcare. All rights reserved.</span><span>Developed by <a href="https://www.abhinova.com/" target="_blank" rel="noopener">Abhinova</a></span></div>
+  </footer>
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
