@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="lb" x1="40" y1="6" x2="112" y2="96" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2168cf"/>
+      <stop offset="1" stop-color="#12306e"/>
+    </linearGradient>
+    <linearGradient id="lg" x1="20" y1="20" x2="76" y2="92" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#74d13f"/>
+      <stop offset="1" stop-color="#3f9424"/>
+    </linearGradient>
+  </defs>
+  <!-- orbit swoosh -->
+  <path fill="#1d5bb8" d="M6 60c7 26 38 42 68 37 22-4 34-16 38-30-9 15-26 24-48 24C39 91 15 79 6 60z"/>
+  <!-- blue D -->
+  <path fill="url(#lb)" fill-rule="evenodd" d="M42 4h28c28 0 45 18 45 46 0 27-17 45-45 45H42V4zm18 17v58h10c17 0 26-11 26-29S87 21 70 21H60z"/>
+  <!-- green D overlapping lower-left, separated by white keyline -->
+  <path fill="url(#lg)" stroke="#fff" stroke-width="3.5" fill-rule="evenodd" d="M27 32h19c18 0 29 11 29 30 0 18-11 29-29 29H27V32zm13 12v34h6c10 0 16-6 16-17s-6-17-16-17h-6z"/>
+  <!-- leaf -->
+  <path fill="url(#lg)" stroke="#fff" stroke-width="2.5" d="M36 2C20 5 10 17 12 33c16 2 27-7 28-24-1-3-2-5-4-7z"/>
+  <!-- green cross -->
+  <path fill="url(#lg)" stroke="#fff" stroke-width="2.5" d="M76 44h11v11h11v11H87v11H76V66H65V55h11V44z"/>
+  <!-- capsule -->
+  <g transform="rotate(-32 34 92)" stroke="#fff" stroke-width="2.5">
+    <path fill="url(#lg)" d="M12 83a10 10 0 0 1 10-10h12v20H22a10 10 0 0 1-10-10z"/>
+    <path fill="#12306e" d="M34 73h12a10 10 0 0 1 0 20H34V73z"/>
+  </g>
+  <ellipse cx="24" cy="86" rx="4" ry="2" fill="#fff" opacity="0.55" transform="rotate(-32 24 86)"/>
+</svg>
